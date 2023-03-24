@@ -27,9 +27,9 @@ def translate(source_text):
 st.sidebar.markdown("# Nerjemahake: Aplikasi Penerjemahan Bahasa Jawa Ngoko - Krama")
 st.sidebar.markdown("Aplikasi ini adalah demo penerjemahan dengan metode Neural Machine Translation menggunakan OpenNMT.")
 st.sidebar.markdown("Masukkan teks yang ingin diterjemahkan pada kotak teks dan klik 'Terjemahkan'.")
-# st.sidebar.markdown("---")
-# st.sidebar.markdown("# Help")
-# st.sidebar.markdown("Jika ada pertanyaan, silahkan kontak saya di support@gmail.com.")
+st.sidebar.markdown("---")
+st.sidebar.markdown("# Help")
+st.sidebar.markdown("Jika ada pertanyaan, silahkan kontak saya di support@gmail.com.")
 
 # Form to add your items
 with st.form("my_form"):
